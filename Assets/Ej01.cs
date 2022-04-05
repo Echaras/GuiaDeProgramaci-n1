@@ -7,10 +7,12 @@ using UnityEngine;
 
 public class Ej01 : MonoBehaviour
 {
+    int num1 = 0;
+
     // Start is called before the first frame update
     void Start()
     {
-   
+
         num1 += 2;
         Debug.Log(num1);
         Debug.Log(num1 * num1);
